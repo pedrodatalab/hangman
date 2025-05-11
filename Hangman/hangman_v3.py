@@ -87,7 +87,7 @@ class Hangman:
      def __init__(self, palavra):
           self.palavra = palavra
           self.letras_erradas = letras_erradas
-          self.letrascorretas = letras_corretas
+          self.letras_corretas = letras_corretas
           self.tentativas = tentativas
           
 	# Método para adivinhar a letra
